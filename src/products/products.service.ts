@@ -6,7 +6,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Rating } from 'src/ratings/entities/rating.entity';
 import { link } from 'fs';
-
+//the commoit
 @Injectable()
 export class ProductsService {
   constructor(
